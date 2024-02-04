@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CHIRP\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 15:14-0800\n"
+"POT-Creation-Date: 2024-02-04 12:44-0800\n"
 "PO-Revision-Date: 2022-06-04 02:01+0800\n"
 "Last-Translator: DuckSoft, BH2UEP <realducksoft@gmail.com>\n"
 "Language: zh_CN\n"
@@ -50,7 +50,7 @@ msgid "%i Memory and shift block up"
 msgid_plural "%i Memories and shift block up"
 msgstr[0] "...并将区块上移"
 
-#: ../wxui/main.py:1375
+#: ../wxui/main.py:1380
 #, fuzzy, python-format
 msgid "%s has not been saved. Save before closing?"
 msgstr "文件已更改，关闭前要保存变更吗？"
@@ -482,7 +482,7 @@ msgid ""
 "4. Press the [D/MR(MW)] key (\"--WAIT--\" will appear on the LCD).\n"
 msgstr ""
 
-#: ../drivers/uv5r.py:825
+#: ../drivers/uv5r.py:826
 msgid ""
 "1. Turn radio off.\n"
 "2. Connect cable to mic/spkr connector.\n"
@@ -492,7 +492,7 @@ msgid ""
 "6. Click OK to download image from device.\n"
 msgstr ""
 
-#: ../drivers/uv5r.py:833
+#: ../drivers/uv5r.py:834
 msgid ""
 "1. Turn radio off.\n"
 "2. Connect cable to mic/spkr connector.\n"
@@ -617,7 +617,7 @@ msgid ""
 "It will may not work if you turn on the radio with the cable already attached"
 msgstr ""
 
-#: ../wxui/main.py:1787
+#: ../wxui/main.py:1797
 msgid ""
 "A new CHIRP version is available. Please visit the website as soon as "
 "possible to download it!"
@@ -627,7 +627,7 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: ../wxui/main.py:1662
+#: ../wxui/main.py:1667
 msgid "About CHIRP"
 msgstr ""
 
@@ -635,12 +635,12 @@ msgstr ""
 msgid "All"
 msgstr "全选"
 
-#: ../wxui/main.py:1204
+#: ../wxui/main.py:1209
 #, fuzzy
 msgid "All Files"
 msgstr "全部文件"
 
-#: ../wxui/main.py:1215
+#: ../wxui/main.py:1220
 msgid "All supported formats|"
 msgstr ""
 
@@ -660,7 +660,7 @@ msgstr ""
 msgid "Available modules"
 msgstr ""
 
-#: ../wxui/main.py:1730
+#: ../wxui/main.py:1740
 msgid "Bandplan"
 msgstr ""
 
@@ -700,7 +700,7 @@ msgid ""
 "Channels with equivalent TX and RX %s are represented by tone mode of \"%s\""
 msgstr ""
 
-#: ../wxui/main.py:1203
+#: ../wxui/main.py:1208
 msgid "Chirp Image Files"
 msgstr ""
 
@@ -764,11 +764,11 @@ msgstr "从电台下载"
 msgid "Cloning to radio"
 msgstr "上传到电台"
 
-#: ../wxui/main.py:998
+#: ../wxui/main.py:1003
 msgid "Close"
 msgstr ""
 
-#: ../wxui/main.py:999
+#: ../wxui/main.py:1004
 #, fuzzy
 msgid "Close file"
 msgstr "全部文件"
@@ -848,7 +848,7 @@ msgstr ""
 msgid "DV Memory"
 msgstr "该存储"
 
-#: ../wxui/main.py:1676
+#: ../wxui/main.py:1681
 msgid "Danger Ahead"
 msgstr ""
 
@@ -866,7 +866,7 @@ msgstr "删除"
 msgid "Developer Mode"
 msgstr "开发者"
 
-#: ../wxui/main.py:1682
+#: ../wxui/main.py:1687
 #, python-format
 msgid "Developer state is now %s. CHIRP must be restarted to take effect"
 msgstr ""
@@ -885,7 +885,7 @@ msgstr "数字代码"
 msgid "Digital Modes"
 msgstr "数字代码"
 
-#: ../wxui/main.py:1693
+#: ../wxui/main.py:1698
 msgid "Disable reporting"
 msgstr ""
 
@@ -908,11 +908,11 @@ msgstr ""
 msgid "Double-click to change bank name"
 msgstr ""
 
-#: ../wxui/main.py:1000
+#: ../wxui/main.py:1005
 msgid "Download"
 msgstr ""
 
-#: ../wxui/main.py:1001
+#: ../wxui/main.py:1006
 #, fuzzy
 msgid "Download from radio"
 msgstr "从电台下载"
@@ -1007,7 +1007,7 @@ msgstr "继续使用不稳定的驱动？"
 msgid "Export can only write CSV files"
 msgstr ""
 
-#: ../wxui/main.py:1360
+#: ../wxui/main.py:1365
 #, fuzzy
 msgid "Export to CSV"
 msgstr "导出到文件"
@@ -1049,8 +1049,8 @@ msgstr ""
 msgid "File does not exist: %s"
 msgstr ""
 
-#: ../wxui/main.py:1207 ../wxui/main.py:1288 ../wxui/main.py:1298
-#: ../wxui/main.py:1356 ../wxui/main.py:1628 ../wxui/main.py:1629
+#: ../wxui/main.py:1212 ../wxui/main.py:1293 ../wxui/main.py:1303
+#: ../wxui/main.py:1361 ../wxui/main.py:1633 ../wxui/main.py:1634
 #, fuzzy
 msgid "Files"
 msgstr "文件 (_F)"
@@ -1063,7 +1063,7 @@ msgstr ""
 msgid "Filter results with location matching this string"
 msgstr ""
 
-#: ../wxui/main.py:1430
+#: ../wxui/main.py:1435
 #, fuzzy
 msgid "Find"
 msgstr "RFinder"
@@ -1122,7 +1122,7 @@ msgid ""
 msgstr ""
 
 #: ../drivers/mursv1.py:342 ../drivers/baofeng_wp970i.py:328
-#: ../drivers/btech.py:689 ../drivers/gmrsuv1.py:392
+#: ../drivers/btech.py:690 ../drivers/gmrsuv1.py:392
 #: ../drivers/tdxone_tdq8a.py:455 ../drivers/uv6r.py:342
 #: ../drivers/uv5x3.py:418 ../drivers/gmrsv2.py:364
 #: ../drivers/baofeng_uv17Pro.py:442 ../drivers/bf_t1.py:483
@@ -1191,7 +1191,7 @@ msgid ""
 "6 - Cycle power on the radio to exit clone mode\n"
 msgstr ""
 
-#: ../drivers/btech.py:695 ../drivers/bf_t1.py:489
+#: ../drivers/btech.py:696 ../drivers/bf_t1.py:489
 msgid ""
 "Follow these instructions to upload your info:\n"
 "1 - Turn off your radio\n"
@@ -1291,7 +1291,7 @@ msgstr "该存储"
 msgid "Goto..."
 msgstr ""
 
-#: ../wxui/main.py:966
+#: ../wxui/main.py:971
 msgid "Help"
 msgstr "帮助"
 
@@ -1314,7 +1314,7 @@ msgstr "要覆盖吗？"
 msgid "If set, sort results by distance from these coordinates"
 msgstr ""
 
-#: ../wxui/main.py:1343
+#: ../wxui/main.py:1348
 msgid "Import"
 msgstr "导入"
 
@@ -1323,11 +1323,11 @@ msgstr "导入"
 msgid "Import from file..."
 msgstr "导入自文件"
 
-#: ../wxui/main.py:1347
+#: ../wxui/main.py:1352
 msgid "Import messages"
 msgstr ""
 
-#: ../wxui/main.py:1341
+#: ../wxui/main.py:1346
 msgid "Import not recommended"
 msgstr ""
 
@@ -1381,7 +1381,7 @@ msgstr ""
 msgid "Invalid edit: %s"
 msgstr "设置值无效：%s"
 
-#: ../wxui/main.py:1625
+#: ../wxui/main.py:1630
 msgid "Invalid or unsupported module file"
 msgstr ""
 
@@ -1434,12 +1434,12 @@ msgstr "加载模块"
 msgid "Load module from issue"
 msgstr "加载模块"
 
-#: ../wxui/main.py:957
+#: ../wxui/main.py:962
 #, fuzzy
 msgid "Load module from issue..."
 msgstr "加载模块"
 
-#: ../wxui/main.py:1632
+#: ../wxui/main.py:1637
 msgid ""
 "Loading modules can be extremely dangerous, leading to damage to your "
 "computer, radio, or both. NEVER load a module from a source you do not "
@@ -1498,17 +1498,17 @@ msgstr "型号"
 msgid "Modes"
 msgstr "制式"
 
-#: ../wxui/main.py:1629
+#: ../wxui/main.py:1634
 #, fuzzy
 msgid "Module"
 msgstr "模块"
 
-#: ../wxui/main.py:1601
+#: ../wxui/main.py:1606
 #, fuzzy
 msgid "Module Loaded"
 msgstr "模块"
 
-#: ../wxui/main.py:1716
+#: ../wxui/main.py:1726
 msgid "Module loaded successfully"
 msgstr ""
 
@@ -1531,7 +1531,7 @@ msgstr "上移 (_U)"
 msgid "New Window"
 msgstr ""
 
-#: ../wxui/main.py:1789
+#: ../wxui/main.py:1799
 #, fuzzy
 msgid "New version available"
 msgstr "CHIRP 新版本可用：{ver}。"
@@ -1582,7 +1582,7 @@ msgstr ""
 msgid "Only working repeaters"
 msgstr ""
 
-#: ../wxui/main.py:994 ../wxui/main.py:1343
+#: ../wxui/main.py:999 ../wxui/main.py:1348
 msgid "Open"
 msgstr ""
 
@@ -1595,12 +1595,12 @@ msgstr "打开最近 (_R)"
 msgid "Open Stock Config"
 msgstr "打开库存配置"
 
-#: ../wxui/main.py:995 ../wxui/main.py:1218
+#: ../wxui/main.py:1000 ../wxui/main.py:1223
 #, fuzzy
 msgid "Open a file"
 msgstr "打开最近的文件"
 
-#: ../wxui/main.py:1647
+#: ../wxui/main.py:1652
 msgid "Open a module"
 msgstr ""
 
@@ -1674,7 +1674,7 @@ msgstr ""
 msgid "Pasted memory will overwrite memory %s"
 msgstr ""
 
-#: ../wxui/main.py:1793
+#: ../wxui/main.py:1803
 msgid "Please be sure to quit CHIRP before installing the new version!"
 msgstr ""
 
@@ -1704,7 +1704,7 @@ msgid ""
 "    (At the end radio will beep)\n"
 msgstr ""
 
-#: ../wxui/main.py:1670
+#: ../wxui/main.py:1675
 msgid ""
 "Please note that developer mode is intended for use by developers of the "
 "CHIRP project, or under the direction of a developer. It enables behaviors "
@@ -1745,7 +1745,7 @@ msgstr ""
 msgid "Properties"
 msgstr "属性"
 
-#: ../wxui/main.py:1744
+#: ../wxui/main.py:1754
 #, fuzzy, python-format
 msgid "Query %s"
 msgstr "查询失败"
@@ -1760,7 +1760,7 @@ msgstr "查询数据源"
 msgid "RX DTCS"
 msgstr "DTCS 接收代码"
 
-#: ../wxui/main.py:965
+#: ../wxui/main.py:970
 msgid "Radio"
 msgstr "电台"
 
@@ -1825,14 +1825,14 @@ msgstr ""
 msgid "Reporting enabled"
 msgstr "报告已禁用"
 
-#: ../wxui/main.py:1689
+#: ../wxui/main.py:1694
 msgid ""
 "Reporting helps the CHIRP project know which radio models and OS platforms "
 "to spend our limited efforts on. We would really appreciate if you left it "
 "enabled. Really disable reporting?"
 msgstr ""
 
-#: ../wxui/main.py:1684
+#: ../wxui/main.py:1689
 msgid "Restart Required"
 msgstr ""
 
@@ -1850,15 +1850,15 @@ msgstr ""
 msgid "Retrieved settings"
 msgstr ""
 
-#: ../wxui/main.py:996
+#: ../wxui/main.py:1001
 msgid "Save"
 msgstr ""
 
-#: ../wxui/main.py:1377
+#: ../wxui/main.py:1382
 msgid "Save before closing?"
 msgstr ""
 
-#: ../wxui/main.py:997 ../wxui/main.py:1302
+#: ../wxui/main.py:1002 ../wxui/main.py:1307
 msgid "Save file"
 msgstr ""
 
@@ -1894,7 +1894,7 @@ msgstr "选择列"
 msgid "Select Modes"
 msgstr "选择列"
 
-#: ../wxui/main.py:1729
+#: ../wxui/main.py:1739
 msgid "Select a bandplan"
 msgstr ""
 
@@ -1916,6 +1916,10 @@ msgstr ""
 
 #: ../wxui/memedit.py:824
 msgid "Show extra fields"
+msgstr ""
+
+#: ../wxui/main.py:957
+msgid "Show image backup location"
 msgstr ""
 
 #: ../wxui/memedit.py:1927
@@ -1967,7 +1971,7 @@ msgstr ""
 msgid "State/Province"
 msgstr ""
 
-#: ../wxui/main.py:1717
+#: ../wxui/main.py:1727
 msgid "Success"
 msgstr ""
 
@@ -2007,7 +2011,7 @@ msgid ""
 "Proceed anyway?"
 msgstr ""
 
-#: ../wxui/main.py:1334
+#: ../wxui/main.py:1339
 #, python-format
 msgid ""
 "The recommended procedure for importing memories is to open the source file "
@@ -2072,7 +2076,7 @@ msgstr "...并将区块上移"
 msgid "This memory and shift block up"
 msgstr "...并将区块上移"
 
-#: ../drivers/uvk5_egzumer.py:1547
+#: ../drivers/uvk5_egzumer.py:1450
 msgid ""
 "This option may break your radio! Each radio has a unique set of calibration "
 "data and uploading the data from the image will cause physical harm to the "
@@ -2133,7 +2137,7 @@ msgstr ""
 msgid "Unable to edit memory before radio is loaded"
 msgstr ""
 
-#: ../wxui/main.py:1260
+#: ../wxui/main.py:1265
 #, python-format
 msgid "Unable to find stock config %r"
 msgstr ""
@@ -2177,7 +2181,7 @@ msgstr ""
 msgid "Upload instructions"
 msgstr "{instructions}"
 
-#: ../wxui/main.py:1003
+#: ../wxui/main.py:1008
 #, fuzzy
 msgid "Upload to radio"
 msgstr "上传到电台"
@@ -2232,7 +2236,7 @@ msgstr ""
 msgid "Vendor"
 msgstr "厂商"
 
-#: ../wxui/main.py:964
+#: ../wxui/main.py:969
 #, fuzzy
 msgid "View"
 msgstr "查看 (_V)"
@@ -2274,12 +2278,12 @@ msgstr ""
 msgid "bytes each"
 msgstr ""
 
-#: ../wxui/main.py:1667
+#: ../wxui/main.py:1672
 #, fuzzy
 msgid "disabled"
 msgstr "已启用"
 
-#: ../wxui/main.py:1667
+#: ../wxui/main.py:1672
 #, fuzzy
 msgid "enabled"
 msgstr "已启用"
